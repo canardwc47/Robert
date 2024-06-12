@@ -1,0 +1,348 @@
+body {
+    background-color: #FFFAF6;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #FFFAF6; /* Couleur de fond */
+    color: black; /* Couleur du texte */
+}
+
+.container {
+    display: flex; /* Utilisation de flexbox */
+    justify-content: space-between; /* Espacement entre les éléments */
+    align-items: center; /* Alignement vertical centré */
+}
+
+.logo img {
+    width: 200px; /* Largeur du logo */
+    height: auto; /* Hauteur automatique */
+}
+
+.right {
+    display: flex; /* Disposer la barre de recherche et la navigation en ligne */
+    align-items: center; /* Centrage vertical */
+}
+
+.search-bar {
+    display: flex; /* Disposer le champ de recherche et le bouton en ligne */
+    margin-right: 1em; /* Espacement à droite de la barre de recherche */
+}
+
+.search-bar input[type="text"] {
+    padding: 0.5em; /* Espacement intérieur du champ de saisie */
+    font-size: 1em; /* Taille de la police */
+    border: none; /* Suppression de la bordure */
+    border-radius: 5px 0 0 5px; /* Bordure arrondie */
+}
+
+.search-bar button {
+    padding: 0.5em; /* Espacement intérieur du bouton */
+    font-size: 1em; /* Taille de la police */
+    border: none; /* Suppression de la bordure */
+    background-color: #FFFFFF; /* Couleur de fond du bouton */
+    color: #333; /* Couleur du texte du bouton */
+    border-radius: 0 5px 5px 0; /* Bordure arrondie */
+    cursor: pointer; /* Curseur en forme de main */
+    transition: background-color 0.3s; /* Animation de transition */
+}
+
+.search-bar button:hover {
+    background-color: #005856; /* Couleur au survol */
+}
+
+nav ul {
+    list-style-type: none; /* Suppression des puces de liste */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Disposition en ligne */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espacement entre les éléments */
+}
+
+nav ul li a {
+    text-decoration: none; /* Suppression du soulignement */
+    color: black; /* Couleur des liens */
+    font-weight: bold; /* Texte en gras */
+    transition: color 0.3s; /* Animation de transition */
+}
+
+nav ul li a:hover {
+    color: #005856; /* Couleur au survol */
+}
+
+.cta-section {
+    text-align: center; /* Centrage du texte */
+    padding: 2em 1em; /* Espacement intérieur */
+    background-color: #FFFAF6; /* Couleur de fond */
+}
+
+.cta-section h1 {
+    margin-bottom: 0.5em; /* Espacement sous le titre */
+}
+
+.cta-section p {
+    margin-bottom: 1em; /* Espacement sous le paragraphe */
+    font-size: 1.2em; /* Taille de la police du paragraphe */
+}
+
+.cta-button {
+    text-decoration: none; /* Suppression du soulignement */
+    background-color: #005856; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    padding: 0.75em 1.5em; /* Espacement intérieur */
+    border-radius: 5px; /* Bordure arrondie */
+    font-size: 1em; /* Taille de la police */
+    font-weight: bold; /* Texte en gras */
+    transition: background-color 0.3s;
+    margin-left: 1em; /* Animation de transition */
+}
+
+.cta-button:hover {
+    background-color: #005856; /* Couleur au survol */
+}
+
+main {
+    padding: 0;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.fond {
+    background-color: #FFFAF6; /* Couleur de fond du bouton */
+    background-image: url(images/fond2.png);
+    background-size: cover;
+    height: 600px;
+   
+}
+
+
+.subheader h1 {font-size: 60px;
+}
+
+.container1 {
+    display: flex;
+    
+}
+
+.container1 div {
+    width: auto;
+    margin-top: 100px;
+
+}
+
+
+.container1 :nth-child(2) {
+    margin-left: 33%;
+}
+
+.cta-button1 {
+    text-decoration: none; /* Suppression du soulignement */
+    background-color: #005856; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    padding: 0.75em 1.5em; /* Espacement intérieur */
+    border-radius: 5px; /* Bordure arrondie */
+    font-size: 1em; /* Taille de la police */
+    font-weight: bold; /* Texte en gras */
+    transition: background-color 0.3s;
+    margin-left: 1em; /* Animation de transition */
+}
+
+.cta-button1:hover {
+    background-color: #333; /* Couleur au survol */
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cardimage {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+
+
+.offres {
+    background-color: #FFFAF6;
+    box-sizing: border-box;
+    padding-top: 30px;
+    margin: 0;
+    
+}
+  h2 {
+    margin-left: 30px;
+    font-size: 35px;
+  }
+
+  .carousel-inner {
+    background-color: #005856;
+    margin-top: 100px;
+  justify-content: center;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item.row {
+  justify-content: center;
+  
+}
+
+.carousel-item.col-md-4 {
+  margin: 0 auto;
+}
+
+.carousel-item.card {
+  width: 100px; /* ajustez la largeur à votre convenance */
+  margin: 10px auto; /* marge de 10px en haut et en bas, et auto pour les côtés gauche et droit */
+}
+
+.carousel-item.card img {
+  height: 50%; /* ajustez la hauteur de l'image à votre convenance */
+  object-fit: cover; /* pour que l'image soit coupée à la bonne taille */
+}
+
+.carousel-item.card-body {
+  padding: 0px; /* ajustez le padding à votre convenance */
+}
+
+.carousel-item.card-title {
+  font-size: 18px; /* ajustez la taille de la police à votre convenance */
+}
+
+.carousel-item.card-text {
+  font-size: 14px; /* ajustez la taille de la police à votre convenance */
+}
+
+.card-custom-size {
+    width: 300px;
+    height: 200px;
+  }
+
+.button { 
+    margin-top: 50%;
+    margin-left: 50px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container4 {
+    width: 60%;
+    margin: 0 100px;
+    padding: 10px;
+    background-color: #1a535c;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #FFFAF6;
+}
+
+.contact-box {
+    background-color: #1a535c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.form-group4 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button4 {
+    background-color: #1a535c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button4:hover {
+    background-color: #24ff54;
+}
+
+.container5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item5 {
+    flex-basis: 20%; /* ajustez la largeur des éléments */
+    margin: 40px;
+    text-align: center;
+  }
+  
+  .item5 img {
+    width: 100%;
+    height: 300px; /* ajustez la hauteur des images */
+    object-fit: cover;
+  }
+
+  .accordion-header {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
